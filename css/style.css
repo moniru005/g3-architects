@@ -101,14 +101,63 @@ body{
  .text-features{
   color: #FF900E;
  }
- 
+ /* Feature Style */
+
+ .feature-container{
+  display: flex;
+  justify-content: center;
+  /* border:1px solid tomato;  */
+  gap: 20px;
+  padding-top: 100px;
+
+ }
+ .feature-content{
+  /* border:1px solid tomato;  */
+ }
+ .feature-title{
+  color: #131313;
+  font-size: 2.8rem;
+ } 
+
+ .feature-card-title{
+  font-size: 1.2rem;
+  color: #131313;
+ }
+ .feature-container img{
+  /* border:1px solid tomato; */
+  height: 700px;
+  padding-left: 50px;
+ }
+ .feature-button{
+  background-color: #FF900E;
+  color: white;
+  width: 12rem;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+ }
+
+ .feature-btn-txt
+{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.experience{
+  font-size: 1rem;
+  position: relative;
+  bottom: 20px;
+}
+
+
+
 
 /* Responsive Style for small devices */
  @media screen and (max-width: 576px) {
   .section-padding{
     padding: 15px;
   }
-  .navbar, .teams-container {
+  .navbar, .teams-container, .feature-container {
     flex-direction: column;
   }
   .teams-image-container{
@@ -120,6 +169,11 @@ body{
   }
   .menus{
     padding: 0;
+  }
+  .feature-container img{
+    width: 100%;
+    padding: 0;
+    height: auto;
   }
  }
 
