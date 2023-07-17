@@ -213,6 +213,16 @@ body{
 .sponsors-images img{
   width: 120px;
 }
+footer{
+  margin:50px 150px;
+  border-radius: 8px;
+  background: #FFF4E7;
+}
+.copyright{
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
 /* Responsive Style for small devices */
 @media screen and (max-width: 576px) {
   .section-padding{
